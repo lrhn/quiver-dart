@@ -27,12 +27,12 @@ bool isNotEmpty(String s) => s != null && s.isNotEmpty;
 /// Returns a string with characters from the given [s] in reverse order.
 String reverse(String s) {
   if (s == null || s == '') return s;
-  StringBuffer sb = new StringBuffer();
-  var runes = s.runes;
-  for (int i = runes.length - 1; i >= 0; i--) {
-    sb.writeCharCode(runes.elementAt(i));
+  var buffer = new StringBuffer();
+  var iterator = s.runes.iterator..reset(s.length);
+  while (iterator.movePrevious()) {
+    buffer.writeCharCode(iterator.current);
   }
-  return sb.toString();
+  return buffer.toString();
 }
 
 /// Returns a string with characters from the given [s] in reverse order.
