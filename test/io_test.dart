@@ -25,7 +25,7 @@ import 'package:test/test.dart';
 
 main() {
   group('byteStreamToString', () {
-    test('should decode UTF8 text by default', () {
+    test('should decode utf8 text by default', () {
       var string = '箙、靫';
       var encoded = utf8.encoder.convert(string);
       var data = [encoded.sublist(0, 3), encoded.sublist(3)];
