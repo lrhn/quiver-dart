@@ -1,8 +1,8 @@
-## 0.29.0+2
-
-- Updated SDK version to 2.0.0-dev.17.0
-
 #### Master
+
+- Stop using deprecated constants from the SDK.
+
+#### 0.29.0+1
 
    * BREAKING CHANGE: This version requires Dart SDK 2.0.0-dev.30 or later.
      Bugfixes will be backported to the 0.28.x series for Dart 1 users.
