@@ -1,6 +1,6 @@
 #### Master
 
-- Stop using deprecated constants from the SDK.
+   * Stop using deprecated constants from the SDK.
 
 #### 0.29.0+1
 
