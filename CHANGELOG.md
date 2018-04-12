@@ -1,3 +1,7 @@
+## 0.29.0+2
+
+- Updated SDK version to 2.0.0-dev.17.0
+
 #### Master
 
    * BREAKING CHANGE: This version requires Dart SDK 2.0.0-dev.30 or later.
